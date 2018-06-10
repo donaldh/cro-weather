@@ -1,0 +1,26 @@
+{
+    "auth": "Write me!",
+    "depends": [
+        "Cro::HTTP",
+        "Cro::WebSocket",
+        "OO::Monitors"
+    ],
+    "resources": [],
+    "description": "Write me!",
+    "version": "0.0.1",
+    "tags": [""],
+    "license": "Write me!",
+    "source-url": "Write me!",
+    "provides": {
+        "Weather": "lib/Weather.pm6",
+        "Routes.pm6": "lib/Routes.pm6",
+        "Routes": "lib/Routes.pm6"
+    },
+    "name": "cro-weather",
+    "perl": "6.*",
+    "build-depends": [],
+    "test-depends": [],
+    "support": {"source": "Write me!"},
+    "meta6": "0",
+    "authors": [""]
+}

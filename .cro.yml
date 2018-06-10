@@ -1,0 +1,15 @@
+---
+name: cro-weather
+cro: 1
+id: weather
+env:  []
+links:  []
+entrypoint: service.p6
+endpoints: 
+  - 
+    port-env: WEATHER_PORT
+    name: HTTP
+    protocol: http
+    host-env: WEATHER_HOST
+    id: http
+...
